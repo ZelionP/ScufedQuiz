@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+Body{
+    background-color: yellowgreen;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Electrolize', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.quiz{
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5%;
+}
+.quiz > h2{
+    display: block;
+    text-align: center;
+}
+.form-input{
+    width: 75%;
+    display: block;
+    border: black solid 1px;
+    border-radius: 10px;
+    height: 30px;
+    margin: 20px 40px;
+}
+.setup-form > h2{
+ font-size: 30px;
+ font-family: 'Courier New', Courier, monospace;
+ margin-bottom: 20px;
+}
+.form-control > label {
+    margin: 20px;
+}
+.submit-btn{
+width: 100%;
+height: 30px;
+border: none;
+background-color: rgba(139, 111, 111, 0.315);
+border-radius: 5px;
+font-size: 15px;
+font-family:'Courier New', Courier, monospace;
+font-weight: bold;
+
+}
+.answer-btn{
+width: 80px;
+margin: 2px;
+border: none;
+background-color: rgb(153, 253, 153);
+height: 30px;
+border-radius: 5px;
+
+}
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.next-question{
+    background-color: orange;
+    width: 97%;
+    height: 30px;
+    margin: 7px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+}
+.correct-answers{
+    position: relative;
+    left: 240px;
+}
+.modal-content{
+    display: none;
+}
